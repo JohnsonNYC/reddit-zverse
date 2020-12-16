@@ -1,0 +1,38 @@
+.post-card{
+    width: 50rem;
+    padding: 1px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.likes{
+    align-self: flex-start;
+    padding-left: 5px
+}
+.created-at{
+    font-size: 10px;
+    align-self: flex-start;
+    padding-left: 5px
+}
+
+.title{
+    padding-left: 5px;
+}
+
+.post-image{
+    max-width: 40rem;
+}
+
+
+.buttons{
+    display: flex;
+    width: inherit;
+    justify-content: left;
+}
+
+.button{
+    margin: 5px;
+    padding: 1px;
+}
